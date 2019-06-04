@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-       Car[] tab = new Car[5];
+        Car[] tab = new Car[5];
         tab[0] = new Truck("Kamaz", 1000, 15.0, true, 1000);
         tab[1] = new Car("VW Golf", 60, 7.0, true);
         tab[2] = new Truck("Man", 2000, 20.0, true, 2000);
