@@ -34,12 +34,12 @@ public class Vehicle {
         return fuelConsumption;
     }
 
-    public double getRealFuelConsumption(){
+    public double getRealFuelConsumption() {
         return getFuelConsumption();
     }
 
-    public double getRange(){
-        return getTankCapacity()/getRealFuelConsumption() *100;
+    public double getRange() {
+        return getTankCapacity() / getRealFuelConsumption() * 100;
     }
 
     public void setFuelConsumption(double fuelConsumption) {

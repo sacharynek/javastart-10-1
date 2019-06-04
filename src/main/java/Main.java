@@ -8,11 +8,11 @@ public class Main {
         tab[3] = new Car("Fiat", 45, 8.0, true);
         tab[4] = new Truck("DAF", 2500, 10.0, true, 4000);
 
-        for(Vehicle v : tab){
+        for (Vehicle v : tab) {
             System.out.println(v);
-            System.out.format("fuel consumption %.2f liter per 100km\n",v.getFuelConsumption());
-            System.out.format("real fuel consumption %.2f liter per 100 km\n",v.getRealFuelConsumption());
-            System.out.format("range %.2f km\n",v.getRange());
+            System.out.format("fuel consumption %.2f liter per 100km\n", v.getFuelConsumption());
+            System.out.format("real fuel consumption %.2f liter per 100 km\n", v.getRealFuelConsumption());
+            System.out.format("range %.2f km\n", v.getRange());
         }
     }
 }
