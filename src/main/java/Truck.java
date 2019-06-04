@@ -42,4 +42,16 @@ public class Truck extends Car {
 
     }
 
+    @Override
+    public String toString() {
+        return  "Truck{ " +
+                " name= " + getName() + '\'' +
+                ", tankCapacity= " + getTankCapacity() +
+                ", fuelConsumption= " + getFuelConsumption() +
+                ", isAirConditioningOn= " + isAirConditioningOn() +
+                ", airCondFuelFactor= " + getAirCondFuelFactor() +
+                ", carriage= " + carriage +
+                ", carriageFuelFactor= " + carriageFuelFactor +
+                '}';
+    }
 }

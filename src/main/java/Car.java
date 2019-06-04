@@ -38,4 +38,15 @@ public class Car extends Vehicle {
             return getFuelConsumption();
         }
     }
+
+    @Override
+    public String toString() {
+        return "Car{ " +
+                " name= " + getName() + '\'' +
+                ", tankCapacity= " + getTankCapacity() +
+                ", fuelConsumption= " + getFuelConsumption() +
+                ", isAirConditioningOn= " + isAirConditioningOn +
+                ", airCondFuelFactor= " + airCondFuelFactor +
+                '}';
+    }
 }

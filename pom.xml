@@ -8,6 +8,10 @@
   <artifactId>javastart-10-1</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+
+  <properties>
+    <maven.compiler.release>12</maven.compiler.release>
+  </properties>
 <dependencies>
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
   <dependency>

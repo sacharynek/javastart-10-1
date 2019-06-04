@@ -39,10 +39,19 @@ public class Vehicle {
     }
 
     public double getRange(){
-        return getTankCapacity()/getRealFuelConsumption();
+        return getTankCapacity()/getRealFuelConsumption() *100;
     }
 
     public void setFuelConsumption(double fuelConsumption) {
         this.fuelConsumption = fuelConsumption;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{ " +
+                " name= " + name + '\'' +
+                ", tankCapacity= " + tankCapacity +
+                ", fuelConsumption= " + fuelConsumption +
+                '}';
     }
 }
